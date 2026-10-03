@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wachø Digital</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #05070b;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .welcome {
+      width: 90%;
+      max-width: 650px;
+    }
+
+    .logo {
+      width: 75px;
+      height: 75px;
+      margin: 0 auto 25px;
+      border: 1px solid #168cff;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #55b6ff;
+      font-size: 30px;
+      font-weight: bold;
+      box-shadow: 0 0 40px rgba(22,140,255,.2);
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 9vw, 4.5rem);
+      letter-spacing: 4px;
+    }
+
+    .blue {
+      color: #55b6ff;
+    }
+
+    .line {
+      width: 55px;
+      height: 2px;
+      background: #168cff;
+      margin: 22px auto;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #969eac;
+      line-height: 1.7;
+    }
+
+    .creator {
+      margin-top: 25px;
+      color: #8e96a4;
+    }
+
+    .creator strong {
+      display: block;
+      color: white;
+      margin-top: 7px;
+      font-size: 1.1rem;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 15px 25px;
+      border: 0;
+      border-radius: 9px;
+      background: #168cff;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    button:hover {
+      background: #3da4ff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="welcome">
+
+    <div class="logo">W</div>
+
+    <h1>WACHØ <span class="blue">DIGITAL</span></h1>
+
+    <div class="line"></div>
+
+    <h2>Welcome to Wachø Digital</h2>
+
+    <p>
+      We turn your ideas into modern, professional digital experiences.
+    </p>
+
+    <div class="creator">
+      Created by
+      <strong>Tarkue_wacho</strong>
+    </div>
+
+    <button onclick="enterWebsite()">
+      EXPLORE WEBSITE →
+    </button>
+
+  </div>
+
+  <script>
+    function enterWebsite() {
+      alert("Welcome to Wachø Digital!");
+    }
+  </script>
+
+</body>
+</html>
